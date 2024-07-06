@@ -1,0 +1,15 @@
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+button{
+    display: block;
+}
+
+.btn-light{
+    position: relative;
+    top: -40px;
+}

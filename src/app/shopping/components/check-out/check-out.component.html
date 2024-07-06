@@ -1,0 +1,9 @@
+<div class="row" *ngIf="cart$ | async as cart">
+  <div class="col-md-6">
+    <h2>Envio</h2>
+      <shipping-form [cart]="cart"></shipping-form>
+  </div>
+  <div class="col-md-6">
+    <shopping-cart-card [shopping-cart]="cart"></shopping-cart-card>
+  </div>
+</div>
